@@ -46,3 +46,32 @@ Minimal tools including vim, git, wget, unzip.
 https://hub.docker.com/r/spezzino/lemp/
 
 ---
+
+## Parse Platform
+
+- OS: Alpine Linux (edge)
+- Node 7.7.3 & npm 4.1.3
+- Ports: 1337, 27017
+- Volumes: /usr/src/app
+
+### Parse server
+- Version: 2.3.7
+- Listening on: <ip:port>/parse
+
+### Parse dashboard
+- Version: 1.0.25
+- User: user
+- Password: password
+- Listening on: <ip:port>/dashboard
+
+### MongoDB
+- Version: 3.2
+- Listening on: <ip:dbPort>
+
+### Build
+`docker build -t <name>:<tag> .`
+
+### Docker hub
+https://hub.docker.com/r/spezzino/parse-platform/
+
+---
