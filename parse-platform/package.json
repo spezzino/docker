@@ -1,0 +1,14 @@
+{
+  "name": "simple-parse-server",
+  "version": "1.1.0",
+  "description": "Parse Server on Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "parse-server" : "2.3.7",
+    "parse-dashboard": "1.0.25",
+    "express": "^4.15.2"    
+  }
+}
